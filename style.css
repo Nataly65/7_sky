@@ -869,15 +869,20 @@ _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
   border: 0;
   margin: 0 40px 15px 15px;
 }
+.main_content  {
+  margin: 20px;
+  text-align: justify;
+}   
+
 .main_content p {
 font-family: Tahoma;
 margin: 10px;
 font-size: 13px;
-text-indent: 20px;
-text-align: justify;
-margin-left: 40px;
-margin-right: 40px;
 color: rgba(0,0,0, 1);
+margin-left: 20px;
+}
+.main-page {
+  text-indent:20px; 
 }
 .page-text{
   font-family: Tahoma;
@@ -1046,4 +1051,129 @@ color: rgba(0,0,0, 1);
  
   transform: translate(-50%,-188%);
   width: 300px;
+}
+/*форма оплаты*/
+ .vebmany li{
+  font-size: 14px;
+  font-family: Verdana;
+  margin-top: 10px;
+}
+.vebmany{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+ }
+ .writer1{
+  color: blue;
+   font-size: 20px; 
+   font-style: italic; 
+   padding-left: 20px;
+ }
+ .text-page1 {
+  color: rgb(0, 77, 135); 
+  font-family: Arial; 
+  font-size: 14px; 
+  font-weight: bold;
+  margin-left: 10px;
+ }
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+.link-blue{
+  color: blue;
+}
+.title-page1{
+  text-align: center;
+}
+/*форма обратной связи*/
+form#contact {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  background:#DBEDFB; ;
+  border-radius: 5px;
+  width: 578px;
+  margin: 0 auto;
+}
+#contact label {
+	font-size: 14px;
+}
+#contact input:required:valid {
+	box-shadow: 0 0 3px #BCEF89;
+	border-color: #BCEF89!important;
+	background: #fff url(images/valid.png) no-repeat 98% center;
+}
+#contact textarea:required:valid {
+	box-shadow: 0 0 3px #537bb8fa;
+	border-color: #BCEF89!important;
+}
+#contact input:focus:invalid {
+	box-shadow: 0 0 3px #537bb8fa;
+	border-color: #FFDF97!important;
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+}
+#contact textarea:focus:invalid {
+	box-shadow: 0 0 3px #537bb8fa;
+	border-color: #FFDF97!important;
+}
+.err {
+	border: 1px solid #ff8c00;
+	padding: 10px;
+	background: #FFDF97;
+	text-align: left;
+	border-radius: 3px;
+}
+.ok {
+	border: 1px #BCEF89 solid;
+	margin-bottom: 15px;
+	padding: 10px;
+	background: #f5f9fd;
+	text-align: center;
+	border-radius: 3px;
+}
+#author, #email, #url {
+	width: 30%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+#comment {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+#submit {
+	font-weight: 400;
+	background:#537bb8fa;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px 50px;
+	border: none;
+	cursor: pointer;
+}
+.communication{
+  font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    margin-top: 10px;
+}
+/*конец*/
+.page1-text{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top:20px ;
+  font-family: Verdana;
+  font-size: 14px;
+  text-align: justify;
 }
