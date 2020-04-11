@@ -1177,3 +1177,19 @@ form#contact {
   font-size: 14px;
   text-align: justify;
 }
+/*страница Звездный путь*/
+#star_cnt {
+  width: 250px;
+  text-align: center;
+  border: 2px dotted #B1E0EA;
+  padding: 5px;
+  margin: -10px auto 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: Tahoma;
+  font-size: 14px;
+}
+.page3-text{
+  text-align: center; 
+ 
+}
